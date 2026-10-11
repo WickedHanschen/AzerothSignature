@@ -1,40 +1,37 @@
 # Azeroth Signature
 
-A lightweight World of Warcraft addon that automatically adds a customizable signature to chat messages.
+A lightweight World of Warcraft addon that automatically adds a customizable signature to selected chat messages.
 
 ## Features
 
 - Customizable chat prefix
 - Select which chat channels use the prefix
 - Exclude specific characters
-- Configure everything through the in-game AddOns options
+- In-game settings panel
+
+## Supported Clients
+
+- World of Warcraft Retail
+- WoW Forever (tested)
+
+Compatibility may vary between client versions.
 
 ## Installation
 
-1. Download the latest release from the [GitHub Releases](../../releases) page.
+1. Download the latest ZIP from the project's Releases page.
 2. Extract the `AzerothSignature` folder.
-3. Copy it into your World of Warcraft Retail AddOns directory:
-
-   `World of Warcraft/_retail_/Interface/AddOns/`
-
+3. Copy it into the appropriate game's `Interface/AddOns/` directory.
 4. Restart the game or reload the UI.
+5. Open **Options → AddOns → Azeroth Signature**.
 
 ## Configuration
 
-Open the game menu and navigate to:
-
-**Options → AddOns → Azeroth Signature**
-
-Configure your prefix, choose the chat channels, and enter any characters you want to exclude, separated by commas.
-
-## Compatibility
-
-Designed for World of Warcraft Retail. Compatibility depends on the game interface version specified in the addon TOC file.
+Choose your prefix, select the chat channels where it should appear, and enter excluded character names separated by commas.
 
 ## Bug Reports
 
-If you encounter a problem or have a suggestion, please open an issue in this repository.
+Please open an issue in the GitHub repository.
 
 ## License
 
-See the [LICENSE](LICENSE) file for license information.
+Distributed under the MIT License. See [LICENSE](LICENSE).
