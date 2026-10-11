@@ -1,0 +1,8 @@
+## Interface: 120000
+## Title: Azeroth Signature
+## Notes: Automatically add a personal signature to selected chat channels.
+## Author: WickedHanschen
+## Version: 1.0.0
+## SavedVariables: AzerothSignatureDB
+
+AzerothSignature.lua
