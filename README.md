@@ -2,7 +2,7 @@
 
 Automatically sign your chat messages with a custom prefix, such as `<MyMain>`, so people always know who is behind your alts. Choose which channels get the signature and which characters are left out.
 
-**Current version:** 1.2 | **Game version:** World of Warcraft Retail
+**Current version:** 1.2 | **Game version:** World of Warcraft Retail & Forever
 
 ---
 
