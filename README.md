@@ -58,9 +58,3 @@ Click **Save Settings** to apply your changes. **Reset to defaults** restores th
 ## Feedback and support
 
 Found a bug or have a suggestion? Open an issue on GitHub or leave a comment on the CurseForge page. Please include your game version and a description of the problem.
-
----
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for the full version history.
