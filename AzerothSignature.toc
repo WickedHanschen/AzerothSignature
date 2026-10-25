@@ -4,5 +4,6 @@
 ## Author: WickedHanschen
 ## Version: 1.2
 ## SavedVariables: AzerothSignatureDB
+## X-Curse-Project-ID: 1739084
 
 AzerothSignature.lua
