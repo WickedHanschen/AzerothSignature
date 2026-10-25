@@ -3,6 +3,15 @@
 All notable changes to **Azeroth Signature** are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.2] - 2026-10-25
+
+### Changed
+- Updated for Retail patch 12.1.5, so the addon is no longer flagged as out of date.
+- Messages that would go over the chat length limit once signed are now sent unsigned, instead of losing their last words.
+
+### Fixed
+- Settings from Name2ChatSafe are now imported reliably. Previously Azeroth Signature could load before Name2ChatSafe and miss its settings.
+
 ## [1.2.1] - 2026-10-25
 
 ### Changed

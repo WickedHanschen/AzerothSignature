@@ -98,4 +98,4 @@ The packager publishes the release notes from `CHANGELOG.md` and reads the suppo
 ## Notes on version numbers
 
 - Your `.toc` says `1.2`; the changelog and tag use `1.2.0` (Semantic Versioning). Use whichever you prefer, as long as they match.
-- The `## Interface:` line currently lists `120000` (Retail 12.0) and `16001` (WoW Forever). Add new numbers to it after patches; old ones can stay. You can read the current number in game with `/dump select(4, GetBuildInfo())`.
+- The `## Interface:` line currently lists `120105` (Retail 12.1.5), `120000` (Retail 12.0) and `16001` (WoW Forever). Add new numbers to it after patches; old ones can stay. You can read the current number in game with `/dump select(4, GetBuildInfo())`.

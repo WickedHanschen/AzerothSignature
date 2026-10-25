@@ -7,6 +7,7 @@ local ADDON_NAME = ...
 local DEFAULT_PREFIX = "<MyMain> "
 local ACCENT = { 0.84, 0.69, 0.36 }          -- gold
 local WHITE8X8 = "Interface\\Buttons\\WHITE8X8"
+local MAX_MESSAGE_BYTES = 255
 
 local CHANNELS = {
     { key = "SAY",           label = "Say (/say)" },
@@ -181,6 +182,12 @@ local function OnPreSendText(_, editBox)
 
     -- Don't break slash commands (e.g. /dance, /roll) or double-sign.
     if text:sub(1, 1) == "/" or text:sub(1, #prefix) == prefix then
+        return
+    end
+
+    -- Chat messages are capped at 255 bytes; signing a long message would
+    -- silently cut off its end, so leave it unsigned instead.
+    if #prefix + #text > MAX_MESSAGE_BYTES then
         return
     end
 
