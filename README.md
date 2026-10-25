@@ -79,6 +79,12 @@ Enter character names separated by commas (e.g. `AltCharacter, Mage123, MyWarrio
 
 **CurseForge app / site** (recommended): search for **Azeroth Signature** and install, or [download it here](https://www.curseforge.com/wow/addons/azeroth-signature).
 
+## Screenshots
+
+| Options |
+|---|
+| ![Options](docs/screenshots/options.png) |
+
 **Manually:**
 
 1. Download the latest zip from [GitHub Releases](../../releases/latest).
