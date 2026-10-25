@@ -1,18 +1,47 @@
 # Changelog
 
 All notable changes to **Azeroth Signature** are documented in this file.
-The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/).
+The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [1.2.0] - 2026-10-23
+## [1.2.1-beta.1] - 2026-10-25
 
-First public release. Put your name on every word.
+### Changed
+- Test build of the new automatic release pipeline. There are no changes to how the addon works.
+
+## [1.2] - 2026-10-23
 
 ### Added
-- **Automatic signature**: a custom prefix is added to your outgoing chat messages when you press Enter, with a space inserted for you.
-- **Channel selection**: Say, Yell, Party, Raid, Instance Chat, Guild, Officer, Whisper and custom channels (`/1`, `/2`, …), with **All** and **None** buttons. Raid also covers Instance Chat, since WoW reports `/raid` in an instance group as Instance Chat.
-- **Excluded characters**: a comma-separated, case-insensitive list, plus an **Add current** button.
-- **Options panel** under *Options → AddOns → Azeroth Signature*, with an enable switch, a signature field (up to 100 characters), a live preview, **Save Settings**, **Reset to defaults** and on-screen status messages.
-- **`/azsig`** slash command to open the settings.
-- **Smart rules**: slash commands are never signed, a message is never signed twice, and nothing is modified during combat.
-- **Automatic import** of settings from the earlier Name2ChatSafe addon, when present.
-- Support for **Retail 12.0** (Interface 120000) and **WoW Forever** (Interface 16001).
+- `/azsig` slash command to open the settings.
+- Redesigned options panel, with a live preview of your signature.
+- Add current, All and None buttons, and a Reset to defaults button, with on-screen status messages.
+
+### Changed
+- Slash commands (such as `/dance` or `/roll`) are never signed.
+
+## [1.0.2] - 2026-10-16
+
+### Added
+- Ticking **Raid** now also signs messages sent to **Instance Chat**, since WoW reports `/raid` in an instance group as Instance Chat.
+
+### Changed
+- Shorter label for custom channels: "Custom channels (/1, /2...)".
+- Internal clean-up of the signing, exclusion and settings-migration code.
+
+### Fixed
+- Addon messages no longer fail if the text isn't a plain string.
+
+## [1.0.1] - 2026-10-11
+
+### Added
+- Support for **WoW Forever** (Interface 16001).
+
+## [1.0.0] - 2026-10-11
+
+### Added
+- Automatic signature added to your outgoing chat messages.
+- Choose which channels are signed: Say, Yell, Party, Raid, Instance Chat, Guild, Officer, Whisper and custom channels.
+- Excluded characters list, with comma-separated names.
+- Options panel under *Options → AddOns → Azeroth Signature*.
+- Messages are never signed twice, and nothing is modified during combat.
+- Automatic import of settings from the earlier Name2ChatSafe addon.
+- Support for **Retail** (Interface 120000).
