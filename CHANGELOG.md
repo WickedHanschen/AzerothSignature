@@ -3,10 +3,11 @@
 All notable changes to **Azeroth Signature** are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [1.2.1-beta.1] - 2026-10-25
+## [1.2.1] - 2026-10-25
 
 ### Changed
-- Test build of the new automatic release pipeline. There are no changes to how the addon works.
+- No changes to how the addon works. This release is the first one published through the new automated release process.
+- The version number shown in the AddOns list now follows the release tag.
 
 ## [1.2] - 2026-10-23
 
