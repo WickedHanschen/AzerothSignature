@@ -1,0 +1,11 @@
+package-as: AzerothSignature
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+ignore:
+  - .github
+  - .gitignore
+  - .gitattributes
+  - docs

@@ -1,0 +1,39 @@
+name: Bug report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: flavor
+    attributes:
+      label: Game version
+      options:
+        - Retail
+        - WoW Forever
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Azeroth Signature version
+      placeholder: "e.g. 1.2 (shown in the AddOns list)"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Which channel were you using, what did you type, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Lua error (if any)
+      description: Paste the text from the error popup or BugSack.
+      render: text
+  - type: textarea
+    id: other
+    attributes:
+      label: Other addons
+      description: Any chat addons or UI replacements that might interact?
